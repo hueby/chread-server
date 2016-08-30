@@ -18,10 +18,12 @@
     "start": "NODE_ENV=development node app"
   },
   "dependencies": {
-    "socket.io": "1.4.x",
-    "express": "4.14.x",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.0",
+    "express": "^4.14.0",
     "mongoose": "4.5.x",
-    "requirejs": "2.2.x"
+    "requirejs": "2.2.x",
+    "socket.io": "1.4.x"
   },
   "devDependencies": {
     "mocha": "3.0.x"
