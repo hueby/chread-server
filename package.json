@@ -15,7 +15,8 @@
     "module-name": "./bin/chread-server"
   },
   "scripts": {
-    "start": "NODE_ENV=development node app"
+    "start": "NODE_ENV=development node app",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
