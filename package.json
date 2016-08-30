@@ -1,0 +1,29 @@
+{
+  "name": "chread-server",
+  "version": "0.0.1",
+  "description": "Server application for Chread-App",
+  "author": "Dennis Hübner <dennis.huebner89@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hueby/chread-server"
+  },
+  "bugs": {
+    "url": "https://github.com/hueby/chread-server"
+  },
+  "license": "MIT",
+  "bin": {
+    "module-name": "./bin/chread-server"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node app"
+  },
+  "dependencies": {
+    "socket.io": "1.4.x",
+    "express": "4.14.x",
+    "mongoose": "4.5.x",
+    "requirejs": "2.2.x"
+  },
+  "devDependencies": {
+    "mocha": "3.0.x"
+  }
+}
