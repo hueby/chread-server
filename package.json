@@ -10,7 +10,6 @@
   "bugs": {
     "url": "https://github.com/hueby/chread-server/issues"
   },
-  "license": "MIT",
   "bin": {
     "module-name": "./bin/chread-server"
   },
@@ -31,5 +30,6 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
     "nyc": "^8.1.0"
-  }
+  },
+  "license": "MIT"
 }
